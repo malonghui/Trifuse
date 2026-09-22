@@ -1,0 +1,7 @@
+name: trifuse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+# Then install PyTorch, PaddlePaddle and this package as in docs/INSTALL.md.

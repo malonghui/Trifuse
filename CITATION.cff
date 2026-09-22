@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use Trifuse, please cite the ICML 2026 paper."
+title: "Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Ma
+    given-names: Longhui
+  - family-names: Zhao
+    given-names: Di
+  - family-names: Wang
+    given-names: Siwei
+  - family-names: Lv
+    given-names: Zhao
+  - family-names: Wang
+    given-names: Miao
+repository-code: "https://github.com/malonghui/Trifuse"
+preferred-citation:
+  type: conference-paper
+  title: "Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion"
+  authors:
+    - family-names: Ma
+      given-names: Longhui
+    - family-names: Zhao
+      given-names: Di
+    - family-names: Wang
+      given-names: Siwei
+    - family-names: Lv
+      given-names: Zhao
+    - family-names: Wang
+      given-names: Miao
+  collection-title: "International Conference on Machine Learning"
+  year: 2026

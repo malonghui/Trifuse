@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trifuse"
+version = "0.1.0"
+description = "Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion (ICML 2026)"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+authors = [
+  {name = "Longhui Ma"}, {name = "Di Zhao"}, {name = "Siwei Wang"},
+  {name = "Zhao Lv"}, {name = "Miao Wang"},
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+Repository = "https://github.com/malonghui/Trifuse"
+Issues = "https://github.com/malonghui/Trifuse/issues"
+
+[project.scripts]
+trifuse = "trifuse.cli:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+
+[tool.setuptools.packages.find]
+include = ["trifuse*"]
